@@ -5,13 +5,13 @@
 	<key>CFBundleIdentifier</key>
 	<string>org.sil.ukelele.keyboardlayout.u.s-custom</string>
 	<key>CFBundleName</key>
-	<string>U.S-custom</string>
+	<string>U.S-dev-v0.0.1</string>
 	<key>CFBundleVersion</key>
-	<string></string>
-	<key>KLInfo_U.S. copy</key>
+	<string>0.0.1</string>
+	<key>KLInfo_U.S-dev-v0.0.1</key>
 	<dict>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.u.s-custom.u.s.copy</string>
+		<string>org.sil.ukelele.keyboardlayout.u.s-custom.u.s-dev-v0.0.1</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
 	</dict>

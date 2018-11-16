@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.7.195 on 2017-12-02 at 07:37 (CET)-->
-<keyboard group="126" id="-18354" name="U.S. copy" maxout="1">
+<!--Last edited by Ukelele version 3.2.7.195 on 2018-11-16 at 14:30 (CET)-->
+<keyboard group="126" id="-32547" name="U.S-dev-v0.0.1" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="984" modifiers="f4"/>
@@ -97,6 +97,10 @@
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
+			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="58" output=""/>
+			<key code="59" output=""/>
 			<key code="65" output="."/>
 			<key code="66" output="&#x001D;"/>
 			<key code="67" output="*"/>
@@ -370,24 +374,24 @@
 			<key code="126" output="&#x001E;"/>
 		</keyMap>
 		<keyMap index="3">
-			<key code="0" output="å"/>
-			<key code="1" output="ß"/>
-			<key code="2" output="∂"/>
-			<key code="3" output="ƒ"/>
-			<key code="4" output="˙"/>
-			<key code="5" output="©"/>
-			<key code="6" output="Ω"/>
-			<key code="7" output="≈"/>
-			<key code="8" output="ç"/>
-			<key code="9" output="√"/>
+			<key code="0" output="+"/>
+			<key code="1" output="="/>
+			<key code="2" output="("/>
+			<key code="3" output="["/>
+			<key code="4" output="}"/>
+			<key code="5" output="{"/>
+			<key code="6" output="-"/>
+			<key code="7" output="&#x003C;"/>
+			<key code="8" output="&#x003E;"/>
+			<key code="9" output="/"/>
 			<key code="10" output="§"/>
-			<key code="11" output="∫"/>
-			<key code="12" output="œ"/>
-			<key code="13" output="∑"/>
-			<key code="14" action="0"/>
-			<key code="15" output="®"/>
-			<key code="16" output="¥"/>
-			<key code="17" output="†"/>
+			<key code="11" output="?"/>
+			<key code="12" output="&#x0022;"/>
+			<key code="13" output="&#x0027;"/>
+			<key code="14" output="`"/>
+			<key code="15" output="#"/>
+			<key code="16" output=""/>
+			<key code="17" output="*"/>
 			<key code="18" output="¡"/>
 			<key code="19" output="™"/>
 			<key code="20" output="£"/>
@@ -401,16 +405,16 @@
 			<key code="28" output="•"/>
 			<key code="29" output="º"/>
 			<key code="30" output="‘"/>
-			<key code="31" output="ø"/>
-			<key code="32" action="3"/>
-			<key code="33" output="“"/>
-			<key code="34" action="2"/>
-			<key code="35" output="π"/>
+			<key code="31" output="%"/>
+			<key code="32" output="_"/>
+			<key code="33" output="^"/>
+			<key code="34" output="-"/>
+			<key code="35" output="$"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="¬"/>
-			<key code="38" output="∆"/>
+			<key code="38" output="]"/>
 			<key code="39" output="æ"/>
-			<key code="40" output="˚"/>
+			<key code="40" output=")"/>
 			<key code="41" output="…"/>
 			<key code="42" output="«"/>
 			<key code="43" output="≤"/>
@@ -424,6 +428,10 @@
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
+			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="58" output=""/>
+			<key code="59" output=""/>
 			<key code="65" output="."/>
 			<key code="66" output="&#x001D;"/>
 			<key code="67" output="*"/>
@@ -1068,6 +1076,18 @@
 			<when state="4" output="ÿ"/>
 		</action>
 		<action id="2">
+			<when state="none" next="3"/>
+		</action>
+		<action id="20">
+			<when state="none" next="3"/>
+		</action>
+		<action id="21">
+			<when state="none" next="3"/>
+		</action>
+		<action id="22">
+			<when state="none" next="3"/>
+		</action>
+		<action id="23">
 			<when state="none" next="3"/>
 		</action>
 		<action id="3">
