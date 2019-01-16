@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.7.195 on 2018-12-04 at 09:11 (CET)-->
+<!--Last edited by Ukelele version 3.2.7.195 on 2019-01-16 at 22:52 (CET)-->
 <keyboard group="126" id="-32547" name="U.S-dev-v0.0.1" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
@@ -405,11 +405,11 @@
 			<key code="28" output="•"/>
 			<key code="29" output="º"/>
 			<key code="30" output="‘"/>
-			<key code="31" output="%"/>
+			<key code="31" output="$"/>
 			<key code="32" output="_"/>
 			<key code="33" output="^"/>
 			<key code="34" output="-"/>
-			<key code="35" output="$"/>
+			<key code="35" output="%"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="¬"/>
 			<key code="38" output="]"/>
